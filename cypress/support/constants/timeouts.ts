@@ -1,0 +1,9 @@
+export const TIMEOUTS = {
+  DEFAULT: 10000,
+  LONG: 30000,
+  SHORT: 5000,
+  PAGE_LOAD: 15000,
+  API_CALL: 20000,
+  ANIMATION: 3000,
+  DEBOUNCE: 500
+} as const;

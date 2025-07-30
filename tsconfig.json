@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    // ... other options
+    "types": [
+      // Remove these from main tsconfig:
+      // "cypress", 
+      // "node",
+      // "@testing-library/cypress"
+    ]
+  }
+}
