@@ -133,7 +133,7 @@ describe('Burberry UK Homepage', () => {
   })
 
   // Test search functionality if available
-  it.skip('should allow product search', () => {
+  it('should allow product search', () => {
     // Find and interact with search
   cy.get('button[title="Search"]').should('exist')
     cy.get('button[title="Search"]').click().then(() => {

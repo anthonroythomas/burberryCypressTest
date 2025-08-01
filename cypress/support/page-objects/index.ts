@@ -18,7 +18,7 @@ export type {
   PageObject, 
   ProductInteractions, 
   FilterableList 
-} from '@types/pages';
+} from '../types/pages';
 
 export type { 
   ShippingAddress, 
@@ -27,17 +27,17 @@ export type {
   ProductFilter,
   NavigationOptions,
   WaitOptions 
-} from '@types/common';
+} from '../types/common';
 
 export type { 
   ComponentBase,
   NavigationComponent,
   SearchComponent,
   CartComponent 
-} from '@types/components';
+} from '../types/components';
 
 export type {
   TestProduct,
   TestOrder,
   LoginCredentials
-} from '@types/test-data';
+} from '../types/test-data';
